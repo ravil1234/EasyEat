@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@drawable/restaurant_img2">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reedimg Your Reward"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 X Chicken Pepperoni Pizza "
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center">
+    </TextView>
+    <ProgressBar
+        android:progressDrawable="@drawable/progress_bar_drawable"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/mf_progress_bar"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="5%"
+        android:progress="05"
+        android:padding="26dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
